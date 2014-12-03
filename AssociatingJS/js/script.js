@@ -1,1 +1,3 @@
-alert("This is in my JS file!");
+// JavaScript
+
+var age;
