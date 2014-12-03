@@ -14,3 +14,6 @@ Go To Training Week #2
 var name = prompt("Please type in your name.");
 
 alert("Welcome "+name+"! Let's figure out how old you are.");
+
+var yearBorn = prompt("What year where you born?");
+consol.log(yearBorn);
