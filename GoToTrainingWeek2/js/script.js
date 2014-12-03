@@ -16,4 +16,8 @@ var name = prompt("Please type in your name.");
 alert("Welcome "+name+"! Let's figure out how old you are.");
 
 var yearBorn = prompt("What year where you born?");
-consol.log(yearBorn);
+console.log(yearBorn);
+var currentYear = 2014;
+var age = currentYear - yearBorn;
+
+alert(name+" you are "+age+" years old.");
