@@ -30,8 +30,10 @@ console.log("Sparky gets " + sparkySlices + " slices of pizza.") //This is the f
 
 //Calculate the total ammount spend on groceries in the past 5 weeks and the average spend on groceries in the last 5 weeks.
 
-var groceryList = [200, 187, 205, 192, 223];
-var total = groceryList[0] + groceryList[1] + groceryList[2] + groceryList[3] + groceryList[4];
-//console.log(total);
-var average = total/5;
-console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average + " per week.");
+var groceryList = [200, 187, 205, 192, 223]; //This is the array that contains the totals of 5 differant weeks of groceries.
+var total = groceryList[0] + groceryList[1] + groceryList[2] + groceryList[3] + groceryList[4]; //This is the variable that contains the math mathmatical expression for solvint the total ammount of the 5 weeks worth of groceries by adding the numbers in the array together.
+//console.log(total); //This console.log that I used to test the total varible to make sure it worked.
+var average = total/5; //This is the variable containing the mathmatical expression to solve the average of the money spend on groceries in the past five weeks. Since the variable total already gave us the total for the 5 weeks all I had to do was use that variable and divide by five to get the average.
+console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average + " per week."); //This is the function I used to print out the required sentance containing the answers gained from the expressions.
+
+//
