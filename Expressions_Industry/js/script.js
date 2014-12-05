@@ -6,7 +6,7 @@ Expressions
 
 //alert("Sup brah!");
 
-//Hewey Designs is moving offices and is adding more team members. They need to know how many chairs they need because they are replacing all the chairs for the new office and how much it will cost. They also need more computers and need to know how much that will cost.
+//Hewey Designs is moving offices and is adding more team members. They need to know how many chairs they need because they are replacing all the chairs for the new office and how much it will cost. They also need more computers and need to know how much that will cost. I want to be come a freelance developer and one day maybe even open my own company. This would be a pretty cool thing to happen for a small buisness.
 
 var currentOffice = [10, 4, 5, 1];
 var chairCost = 150;
