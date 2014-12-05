@@ -38,11 +38,11 @@ console.log("You have spent a total of $" + total + " on groceries over 5 weeks.
 
 //Calculate the discounted price of an item.
 
-var originalPrice = 500;
-var discount = 20;
-var item = "Graphics Card";
-var tax = 7;
-var discountPrice = originalPrice - (originalPrice * (discount/100));
-//console.log(discountPrice);
-var discountTax = discountPrice + (discountPrice * (tax/100));
-console.log("Your " + item + " was originaly $" + originalPrice + ", but after " + discount + "% discount, it is now $" + discountPrice + " without tax, and $" + discountTax + " with tax");
+var originalPrice = 500; //This is the variable for the orignal price of the item which will be used in the resutls variables.
+var discount = 20; //This is the discount percentage for the item which will be used in the discountedPrice variable.
+var item = "Graphics Card"; //This is the item that is on sale that will be used in the final console.log.
+var tax = 7; //This is the precent of sales tax on the item which will be used in the discountTax variable.
+var discountPrice = originalPrice - (originalPrice * (discount/100)); //This is the variable for solving the discounted price of the item without sales tax.
+//console.log(discountPrice); //This is the console.log that I used to test the discountPrice variable that I used to make sure that it was correct.
+var discountTax = discountPrice + (discountPrice * (tax/100)); //This is the variable for solving the cost of the item plus sales tax. Since the discount was already discovered in the discountPrice variable so I used that to find the total plus sales tax.
+console.log("Your " + item + " was originally $" + originalPrice + ", but after " + discount + "% discount, it is now $" + discountPrice + " without tax, and $" + discountTax + " with tax"); //This is the console.log that printed out the required sentace with answers to the questions.
