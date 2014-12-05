@@ -13,3 +13,6 @@ var chairCost = 150;
 var newMembers = 6;
 var taxt = 9;
 var computerCost = 1000;
+
+var totalMembers = currentOffice[0] + currentOffice[1] + currentOffice[2] + currentOffice[3] + newMembers;
+console.log(totalMembers); 
