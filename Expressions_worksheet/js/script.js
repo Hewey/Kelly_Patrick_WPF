@@ -28,4 +28,7 @@ var pizzaNu = 2; //This is the variable for the ammount of pizzas at the party.
 var sparkySlices = pizzaSlices * pizzaNu % partyPeople; //This is the variabled containing the expression that will find the ammount of slices of pizza sparky gets at the end of the party.
 console.log("Sparky gets " + sparkySlices + " slices of pizza.") //This is the function that will print out the answer to the correct ammount of slices in the required sentance.
 
-// 
+//Calculate the total ammount spend on groceries in the past 5 weeks and the average spend on groceries in the last 5 weeks.
+
+var groceryList = [200, 187, 205, 192, 223];
+var total = groceryList[0] + groceryList[1] + groceryList[2] + groceryList[3] + groceryList[4];
