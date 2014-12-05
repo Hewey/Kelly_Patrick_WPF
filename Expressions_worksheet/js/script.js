@@ -42,5 +42,5 @@ var originalPrice = 500;
 var discount = ".20";
 var item = "Graphics Card";
 var tax = 7;
-var discountPrice = originalPrice * Number(discount);
+var discountPrice = originalPrice - (originalPrice * Number(discount));
 console.log(discountPrice);
