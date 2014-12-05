@@ -39,8 +39,10 @@ console.log("You have spent a total of $" + total + " on groceries over 5 weeks.
 //Calculate the discounted price of an item.
 
 var originalPrice = 500;
-var discount = ".20";
+var discount = 20;
 var item = "Graphics Card";
 var tax = 7;
-var discountPrice = originalPrice - (originalPrice * Number(discount));
-console.log(discountPrice);
+var discountPrice = originalPrice - (originalPrice * (discount/100));
+//console.log(discountPrice);
+var discountTax = discountPrice + (discountPrice * (tax/100));
+console.log("Your " + item + " was originaly $" + originalPrice + ", but after " + discount + "% discount, it is now $" + discountPrice + " without tax, and $" + discountTax + " with tax");
