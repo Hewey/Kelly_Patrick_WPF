@@ -32,3 +32,5 @@ console.log("Sparky gets " + sparkySlices + " slices of pizza.") //This is the f
 
 var groceryList = [200, 187, 205, 192, 223];
 var total = groceryList[0] + groceryList[1] + groceryList[2] + groceryList[3] + groceryList[4];
+//console.log(total);
+var average = total/5;
