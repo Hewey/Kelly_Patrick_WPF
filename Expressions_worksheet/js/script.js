@@ -17,5 +17,5 @@ console.log("Sparky is " + humanAge + " human years old which is " + sparkyAge +
 var pizzaSlices = 8; //This is the variable representing the ammount of slices of pizza.
 var partyPeople = 12; //This the variable for the ammount of people at the party. 
 var pizzaNu = 2; //This is the variable for the ammount of pizzas at the party.
-var SlicesPp = pizzaSlices * pizzaNu/partyPeople; //This is the results variable to calculate how many slices of pizza a partygoer gets.
-console.log(SlicesPp);
+var slicesPp = pizzaSlices * pizzaNu/partyPeople; //This is the results variable to calculate how many slices of pizza a partygoer gets.
+console.log("Each person ate " + slicesPp + " slices of pizza at the party.");
