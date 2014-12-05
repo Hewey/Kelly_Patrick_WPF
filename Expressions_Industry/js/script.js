@@ -19,3 +19,6 @@ var totalMembers = currentOffice[0] + currentOffice[1] + currentOffice[2] + curr
 var chairTotal = totalMembers * 150;
 var chairTtax = chairTotal + (chairTotal * (tax/100));
 //console.log(chairTtax);
+var computerTotal = computerCost * newMembers;
+var computerTtax = computerTotal + (computerTotal * (tax/100));
+console.log("Hewey Designs has a total of " + totalMembers + " new members. This means that they need " + totalMembers + " new chairs. The new chairs will cots $" + chairTotal + " before tax and $" + chairTtax + " with tax. The new computers for the " + newMembers + " new members will cost $" + computerTotal + " before tax and $" + computerTtax + " after tax.")
