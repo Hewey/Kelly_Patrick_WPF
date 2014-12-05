@@ -36,4 +36,9 @@ var total = groceryList[0] + groceryList[1] + groceryList[2] + groceryList[3] + 
 var average = total/5; //This is the variable containing the mathmatical expression to solve the average of the money spend on groceries in the past five weeks. Since the variable total already gave us the total for the 5 weeks all I had to do was use that variable and divide by five to get the average.
 console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average + " per week."); //This is the function I used to print out the required sentance containing the answers gained from the expressions.
 
-//
+//Calculate the discounted price of an item.
+
+var originalPrice = 500;
+var discount = 20;
+var item = "Graphics Card";
+var tax = 7;
