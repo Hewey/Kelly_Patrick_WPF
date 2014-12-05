@@ -25,4 +25,5 @@ console.log("Each person ate " + slicesPp + " slices of pizza at the party."); /
 var pizzaSlices = 8;
 var partyPeople = 12;
 var pizzaNu = 2;
-var sparkySlices = 
+var sparkySlices = pizzaSlices * pizzaNu % partyPeople;
+console.log(sparkySlices)
