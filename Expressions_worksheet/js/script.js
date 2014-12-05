@@ -26,4 +26,4 @@ var pizzaSlices = 8;
 var partyPeople = 12;
 var pizzaNu = 2;
 var sparkySlices = pizzaSlices * pizzaNu % partyPeople;
-console.log(sparkySlices)
+console.log("Sparky gets " + sparkySlices + " slices of pizza.")
