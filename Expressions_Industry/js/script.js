@@ -6,9 +6,8 @@ Expressions
 
 //alert("Sup brah!");
 
-//Text box scale calculator
+//Hewey Designs is moving offices and is adding more team members. They need to know how many chairs they need for the new office and how much it will cost.
 
-var cresHeight = [1080, 720, 1440]; //cres stand for Computer Resolution.
-var cresWidth =  [1920, 1280, 2560];
-var mresHeigth = [1920, 1280, 2560]; //mres stands for Mobile Resoltion. 
-var mresWidth = [1080, 720, 1440;]
+var currentOffice = [10, 4, 5, 1];
+var niceChairs = 150;
+
