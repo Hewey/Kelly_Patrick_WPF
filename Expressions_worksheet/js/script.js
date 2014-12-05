@@ -34,3 +34,4 @@ var groceryList = [200, 187, 205, 192, 223];
 var total = groceryList[0] + groceryList[1] + groceryList[2] + groceryList[3] + groceryList[4];
 //console.log(total);
 var average = total/5;
+console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average + " per week.");
