@@ -11,8 +11,11 @@ Expressions
 var currentOffice = [10, 4, 5, 1];
 var chairCost = 150;
 var newMembers = 6;
-var taxt = 9;
+var tax = 9;
 var computerCost = 1000;
 
 var totalMembers = currentOffice[0] + currentOffice[1] + currentOffice[2] + currentOffice[3] + newMembers;
-console.log(totalMembers); 
+//console.log(totalMembers); //Tested that my expression was correct.
+var chairTotal = totalMembers * 150;
+var chairTtax = chairTotal + (chairTotal * (tax/100));
+//console.log(chairTtax);
