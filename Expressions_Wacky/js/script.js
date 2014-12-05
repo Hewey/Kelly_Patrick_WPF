@@ -13,3 +13,4 @@ var travelFt = froggyIntro * 5;
 var travelM = froggyIntro * 5 * (3048/10000);
 //console.log(travelM); //tested my meters calculation.
 alert("With " + froggyIntro + " jumps Bob the Froggy traveled " + travelFt + " feet! Converted to meters he traveled " + travelM + " meters! Whew that was quite the trip! Refresh the page to try again!");
+console.log("With " + froggyIntro + " jumps Bob the Froggy traveled " + travelFt + " feet! Converted to meters he traveled " + travelM + " meters! Whew that was quite the trip! Refresh the page to try again!");
