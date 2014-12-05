@@ -1,5 +1,8 @@
-//Expressions
+//Expressions - Order of operations
 
-var a = 2;
-a = a + 3;
-console.log(a);
+var width = prompt("We are calcualting the area of a rectangle. \nPlease enter the width.");
+var height = prompt("Please enter the height.");
+var area = width * height;
+//console.log(area);
+
+alery("The area of your rectangle is " + area);
