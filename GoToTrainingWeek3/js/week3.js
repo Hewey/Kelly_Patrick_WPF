@@ -6,7 +6,7 @@ Go To Training Week 3
 */
 
 //alert("Sup Bruh");
- var bowlOfFruit = ["Apple", "Banana", "Pear", "Peach", "Pear", "Tomato", "Kiwi", "Pear"];
+ var bowlOfFruit = ["Apple", "Banana", "Pear", "Peach", "Pear", "Tomato", "Kiwi", "Pear", "Banana", "Pear"];
  console.log(bowlOfFruit[1]);
 
  console.log(bowlOfFruit.length);
@@ -45,7 +45,7 @@ console.log("There are " + totalNumPears + " number of pears in the bowl.");
 
 var pearNumber = 0;
 
-for(var i = 0; i<5; i++){
+for(var i = 0; i<bowlOfFruit.length; i++){
 	console.log("Inside of the loop" + i);
 	console.log(bowlOfFruit[i]);
 
