@@ -59,3 +59,12 @@ for(var i = 0; i<bowlOfFruit.length; i++){
 }
 
 console.log("The total number of pears is " + pearNumber);
+
+var userInput = prompt("Please enter your name.")
+
+if(userInput===""){
+	userInput = prompt("Please do not leave it blank, what is your name?");
+}
+
+console.log("Welcome " + userInput);
+
