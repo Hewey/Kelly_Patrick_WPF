@@ -6,7 +6,7 @@ Go To Training Week 3
 */
 
 //alert("Sup Bruh");
- var bowlOfFruit = ["Apple", "Banana", "Pear", "Peach"];
+ var bowlOfFruit = ["Apple", "Banana", "Pear", "Peach", "Pear", "Tomato", "Kiwi", "Pear"];
  console.log(bowlOfFruit[1]);
 
  console.log(bowlOfFruit.length);
@@ -19,3 +19,26 @@ if(bowlOfFruit[0] === "Pear"){
 } else {
 	console.log("This fruit is not a Pear.");
 }
+
+if(bowlOfFruit[1] === "Pear"){
+	console.log("This fruit is a Pear");
+	totalNumPears++;
+} else {
+	console.log("This fruit is not a Pear.");
+}
+
+if(bowlOfFruit[2] === "Pear"){
+	console.log("This fruit is a Pear");
+	totalNumPears++;
+} else {
+	console.log("This fruit is not a Pear.");
+}
+
+if(bowlOfFruit[3] === "Pear"){
+	console.log("This fruit is a Pear");
+	totalNumPears++;
+} else {
+	console.log("This fruit is not a Pear.");
+}
+
+console.log("There are " + totalNumPears + " number of pears in the bowl.");
