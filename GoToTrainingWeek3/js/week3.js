@@ -42,3 +42,20 @@ if(bowlOfFruit[3] === "Pear"){
 }
 
 console.log("There are " + totalNumPears + " number of pears in the bowl.");
+
+var pearNumber = 0;
+
+for(var i = 0; i<5; i++){
+	console.log("Inside of the loop" + i);
+	console.log(bowlOfFruit[i]);
+
+	if(bowlOfFruit[i]==="Pear"){
+		pearNumber++;
+		console.log("This fruit is a pear.");
+
+	}else{
+		console.log("This fruit is not a pear.");
+	}
+}
+
+console.log("The total number of pears is " + pearNumber);
