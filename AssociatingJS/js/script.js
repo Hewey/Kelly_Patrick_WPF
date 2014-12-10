@@ -1,14 +1,9 @@
-// JavaScript
+ 
 
-var age;
-age = 20;
+ var oldEnough = true;
 
-var yearOfBirth = 1994;
+ //if the child is old enough, then print to the console "you can ride!"
 
-var isStudent = true;
-
-var firstName = "Patrick";
-
-var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"];
-
-console.log(muppetNames[0]); 
+ if(oldEnough){
+ 	console.log("You can ride the coaster!");
+ }
