@@ -17,5 +17,5 @@ if(heroName === ""){
 
 if(heroPower != "Strength" || "Speed" || "Jump"){
 	console.log("Oh no! That is not one of the powers! Please try again!")
-	var heroPower
+	var heroPower = prompt("Your hero name is " + heroName + ". Now that we have a name for your hero. Let's chose their power! Type one of the following in the box below: Speed, Strength, or Jump.")
 }
