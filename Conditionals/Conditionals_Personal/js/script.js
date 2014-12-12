@@ -13,6 +13,13 @@ if(userName === ""){
 }
 var totalShots = prompt("Hello " + userName + " and welcome to the \"How bad is your aim!\" calculator. To start please enter the total number of shots you have made.")
 
-if(totalShots === NaN){
+if(isNaN(totalShots)){
 	console.log("Please enter a number! I can't do math with words!")
 }
+var totalPer = prompt("Please enter your total percentage of accuracy.");
+
+if(isNaN(totalPer)){
+	console.log("Please enter a number! I can't do math with words!")
+}
+
+var totalMiss = totalShots * .totalPer
