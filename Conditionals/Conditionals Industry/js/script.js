@@ -30,4 +30,8 @@ if(logUser === userName && logPass === passWord){
 	}
 }
 var employeesNum = ["male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male"]
-console.log(employeesNum.length);
+//console.log(employeesNum.length);
+
+if(welcome === "Employee"){
+	console.log("Hewey designs has " + (employeesNum.length) + " employees." )
+}
