@@ -43,5 +43,15 @@ if(welcome === "Male"){
 			maleNum++;
 		}
 	}
-	console.log("There are " + maleNum + " male employees are Hewey Design.")
+	console.log("There are " + maleNum + " male employees at Hewey Design.")
+}
+
+if(welcome === "Female"){
+	var femaleNum = 0;
+	for(var z = 0; z<employeeNum.length; z++){
+		if(employeeNum[z] === "female"){
+			femaleNum++;
+		}
+	}
+	console.log("There are " + femaleNum + " female employees at Hewey Design.")
 }
