@@ -39,7 +39,13 @@ if(heroPower === powerOne){
 	var outcomeOne = powerRate[0] * minutes;
 	console.log("Your hero " + heroName + " using speed ran " + outcomeOne + " miles in " + minutes + " at a rate of " + powerRate[0] + " miles a minute. Thank's for playing! To play again please refresh this page.");
 }	
+
 if(heroPower === powerTwo){
 	var outcomeTwo = powerRate[1] * minutes;
 	console.log("Your hero " + heroName + " using the strength power, punched through " + outcomeTwo + " walls at a rate of " + powerRate[1] + " walls per minute. To play again please refresh this page.")
+}
+
+if(heroPower === powerThree){
+	var outcomeThree = powerRate[2] * minutes;
+	console.log("Your here " + heroName + " using the jump power, jumped over " + outcomeThree + " buildings at a rate of " + powerRate[2] + " buildings per minute. To play again please refresh this page.")
 }
