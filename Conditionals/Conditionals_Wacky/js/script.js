@@ -24,8 +24,7 @@ if(heroPower != "Speed"){
 			var minutes = prompt("You have chosen the " + heroPower + " power for your hero! How long in minutes would you like your hero to use their power?");		
 		}
 	}else{
-		console.log("Oh no! That is not one of the powers! Please try again!");
-			var heroPower = prompt("Your hero name is " + heroName + ". Now that we have a name for your hero. Let's chose their power! Type one of the following in the box below: Speed, Strength, or Jump.");
+		var minutes = prompt("You have chosen the " + heroPower + " power for your hero! How long in minutes would you like your hero to use their power?");	
 	}	
 }else{
 	var minutes = prompt("You have chosen the " + heroPower + " power for your hero! How long in minutes would you like your hero to use their power?");
@@ -40,3 +39,7 @@ if(heroPower === powerOne){
 	var outcomeOne = powerRate[0] * minutes;
 	console.log("Your hero " + heroName + " using speed ran " + outcomeOne + " miles in " + minutes + " at a rate of " + powerRate[0] + " miles a minute. Thank's for playing! To play again please refresh this page.");
 }	
+if(heroPower === powerTwo){
+	var outcomeTwo = powerRate[1] * minutes;
+	console.log("Your hero " + heroName + " using the strength power, punched through " + outcomeTwo + " walls at a rate of " + powerRate[1] + " walls per minute. To play again please refresh this page.")
+}
