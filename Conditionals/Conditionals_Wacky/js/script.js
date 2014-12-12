@@ -15,9 +15,18 @@ if(heroName === ""){
 	var heroPower = prompt("Your hero name is " + heroName + ". Now that we have a name for your hero. Let's chose their power! Type one of the following in the box below: Speed, Strength, or Jump.");
 }
 
-if(heroPower != "Strength" || "Speed" || "Jump"){
-	console.log("Oh no! That is not one of the powers! Please try again!")
-	var heroPower = prompt("Your hero name is " + heroName + ". Now that we have a name for your hero. Let's chose their power! Type one of the following in the box below: Speed, Strength, or Jump.");
+if(heroPower != "Speed"){
+	if(heroPower != "Strength"){
+		if(heroPower != "Jump"){
+			console.log("Oh no! That is not one of the powers! Please try again!");
+			var heroPower = prompt("Your hero name is " + heroName + ". Now that we have a name for your hero. Let's chose their power! Type one of the following in the box below: Speed, Strength, or Jump.");
+		}else{
+			var minutes = prompt("You have chosen the " + heroPower + " power for your hero! How long in minutes would you like your hero to use their power?");		
+		}
+	}else{
+		console.log("Oh no! That is not one of the powers! Please try again!");
+			var heroPower = prompt("Your hero name is " + heroName + ". Now that we have a name for your hero. Let's chose their power! Type one of the following in the box below: Speed, Strength, or Jump.");
+	}	
 }else{
 	var minutes = prompt("You have chosen the " + heroPower + " power for your hero! How long in minutes would you like your hero to use their power?");
 }
@@ -29,5 +38,5 @@ var powerRate = [400, 12, 4];
 
 if(heroPower === powerOne){
 	var outcomeOne = powerRate[0] * minutes;
-	console.log("Your hero " + heroName + " using speed ran " + outcomeOne + " miles in " + minutes + " at a rate of " + powerRate + " miles a minute. Thank's for playing! To play again please refresh this page.");
+	console.log("Your hero " + heroName + " using speed ran " + outcomeOne + " miles in " + minutes + " at a rate of " + powerRate[0] + " miles a minute. Thank's for playing! To play again please refresh this page.");
 }	
