@@ -29,9 +29,19 @@ if(logUser === userName && logPass === passWord){
 		console.log("Wrong password. Please try again.");
 	}
 }
-var employeesNum = ["male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male"]
-//console.log(employeesNum.length);
+var employeeNum = ["male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male","male", "female", "male", "male", "female", "male", "male", "female", "female", "male"]
+//console.log(employeeNum.length);
 
 if(welcome === "Employee"){
-	console.log("Hewey designs has " + (employeesNum.length) + " employees." )
+	console.log("Hewey designs has " + (employeeNum.length) + " employees.");
+}
+
+if(welcome === "Male"){
+	var maleNum = 0;
+	for(var i = 0; i<employeeNum.length; i++){
+		if(employeeNum[i] === "male"){
+			maleNum++;
+		}
+	}
+	console.log("There are " + maleNum + " male employees are Hewey Design.")
 }
