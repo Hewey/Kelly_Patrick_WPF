@@ -4,9 +4,4 @@ December 18,2014
 Fuctions
 */
 
-//alert("Sup Brah");
-
-function pieFace(){
-		
-}
-
+alert("Sup Brah");
