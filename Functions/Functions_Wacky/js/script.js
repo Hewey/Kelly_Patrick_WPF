@@ -22,5 +22,5 @@ if(isNaN(welcome)){//This checks to see if entered a number the users and if it 
 }
 
 var total = pieHits(welcome);// This is the variable storing the total of pies hit.
-console.log(total);// This is the console.log printing out the number of pies hit to the user.
+console.log("You hit approximately " + total + " pies of the " + welcome + " you threw.");// This is the console.log printing out the number of pies hit to the user.
 }
