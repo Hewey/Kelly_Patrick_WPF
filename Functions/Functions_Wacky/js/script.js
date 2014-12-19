@@ -15,11 +15,12 @@ if(isNaN(welcome)){
 	var acc = [30, 100, 50, 75];
 	var chance = acc[Math.floor(Math.random()*acc.length)];
 	var hitMiss = h *(chance / 100);
-	console.log(hitMiss);
+	//console.log(hitMiss);
+	return hitMiss;
 }
 
-pieHits(welcome);
-
+var total = pieHits(welcome);
+console.log(total);
 }
 
 
