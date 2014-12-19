@@ -14,7 +14,7 @@ if(isNaN(welcome)){//This checks to see if entered a number the users and if it 
 	console.log("Please enter a number. I can not do math with words.");//This is the message sent to the user if they didnt enter a number.
 }else{// This is the else part of the fuction that happens when the user did enter a number. It contains a function doing the math for the number of pies hit. 
 	var pieHits = function(h){// I created this anonymous function to house the math for the number of hits made.
-	var acc = [30, 100, 50, 75];//This is an array containing the differant number of chances for the ammount of hits one can make.
+	var acc = [30, 100, 50, 75];//This is an array containing the differant number of chances for the ammount of hits one can make. The "acc" stands for accuracy
 	var chance = acc[Math.floor(Math.random()*acc.length)];//This is teh varaible choosing and storing one of the numbers in the variable.
 	var hitMiss = h *(chance / 100);//This is the variable doing the math for the pies hit. It is using the randomly chosen number from the variable.
 	//console.log(hitMiss); This is the log I used to see if it was working.
