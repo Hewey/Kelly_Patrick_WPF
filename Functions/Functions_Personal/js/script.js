@@ -14,5 +14,7 @@ randomness(choiceOne, choiceTwo, choiceThree);
 
 function randomness(a, b, c){
 	var choices = [a, b, c];
-	console.log(choices);
+	//console.log(choices);
+	var chance = choices[Math.floor(Math.random()*choices.length)];
+	//console.log(chance);
 }
