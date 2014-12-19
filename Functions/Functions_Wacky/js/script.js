@@ -8,7 +8,10 @@ Fuctions
 
 var welcome = prompt("Welcome to the pie throwing similator. Please enter the first the number of throws you want to make.");
 
-var pieHits = function(h){
+if(isNaN(welcome)){
+	console.log("Please enter a number. I can not do math with words.");
+}else{
+	var pieHits = function(h){
 	var acc = [30, 100, 50, 75];
 	var chance = acc[Math.floor(Math.random()*acc.length)];
 	var hitMiss = h *(chance / 100);
@@ -16,4 +19,7 @@ var pieHits = function(h){
 }
 
 pieHits(welcome);
+
+}
+
 
