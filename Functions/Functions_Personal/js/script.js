@@ -10,11 +10,13 @@ var choiceOne = prompt("Welcome to Random Choice Maker! Maybe you don't know wha
 var choiceTwo = prompt("Enter item two!");
 var choiceThree = prompt("Enter item there!");
 
-randomness(choiceOne, choiceTwo, choiceThree);
+var choiceFinal = randomness(choiceOne, choiceTwo, choiceThree);
 
 function randomness(a, b, c){
 	var choices = [a, b, c];
 	//console.log(choices);
 	var chance = choices[Math.floor(Math.random()*choices.length)];
 	//console.log(chance);
+	return chance;
 }
+console.log("Random Choice Maker has made it's choice! It's choice for you is " + choiceFinal + "! Go enjoy the choice!");
