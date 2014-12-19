@@ -8,7 +8,9 @@ Fuctions
 
 var welcome = prompt("Welcome to the pie throwing similator. Please enter the first the number of throws you want to make.");
 
-var pieHits = function(welcome){
-	console.log(pieHits);
+var pieHits = function(h){
+	console.log(h);
 }
+
+pieHits(welcome);
 
